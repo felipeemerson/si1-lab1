@@ -1,0 +1,22 @@
+body{
+font-family: Arial, sans-serif;
+font-size: 14px;
+background-color: #FFFD70;
+text-align:left;
+ }
+ 
+.fim{
+ font-size: 16px;
+ font-weight:bold;
+ }
+ 
+ .matricula{
+ font-size: 20px;
+ font-weight:bold;
+  }
+ 
+.obrigado{
+font-size: 24px;
+font-weight:bold;
+text-align:center;
+ }
