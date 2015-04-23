@@ -3,20 +3,27 @@
     <meta charset="utf-8">
     <title>Matrícula</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="css/style.css" rel="stylesheet">
 	<script src="js/bootstrap.min.js"></script>
   </head>
   <body>
-  <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div>
+  <div class="navbar navbar-default">
+  <div class="navbar-inner">
+  <div class="container">
+  <div class="navbar-header pull-right">
+      <h4>Sistemas de Informação I</h4>
+    </div>
+  <div>
       <ul class="nav navbar-nav">
         <li><a href="index.html">Início</a></li>
         <li class="active"><a href="matricula.html">Matricular</a></li>
       </ul>
     </div>
   </div>
-</nav>
-  <p>Formulário de Matrícula</p>
+  </div>
+</div>
+<div id="alinhar-a-direita">
+  <p><h4>Formulário de Matrícula</h4></p>
   <table border="0"  width="500px">
   <tr>
      <td>Nome:</td>
@@ -31,6 +38,7 @@
      <td><input type="text" name="" value=""></td>
   </tr>
 </table>
-  <form action="obrigado.html"><input type="submit" value="Matricular"></form>
+  <a href="obrigado.html"><button type="button" class="btn btn-default btn-lg">Matricular</button> </a>
+</div>
   </body>
 </html>
