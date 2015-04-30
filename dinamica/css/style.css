@@ -1,9 +1,17 @@
 #alinhar-a-esquerda{
 margin-left:15px;
 }
+#alinhar-no-centro{
+width: 400px; 
+height: 150px; 
+left: 50%; 
+margin: 0 0 0 -210px; 
+padding:10px;
+position: absolute; 
+}
 #temas{
 width: 100%;
 }
-table td td{
-width: 75%; 
+.box-td{
+width: 300px; 
 }
