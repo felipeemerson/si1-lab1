@@ -19,7 +19,7 @@ $("#Texto1").val("");}
 	$('#Adicionar2').click(function() {
         if ($("#Texto2").val().trim().length >= 2){
         $('#list2').append("<tr><td class='box-td'>"+ $("#Texto2").val() +"</td><td><button name='remover' class='btn btn-danger btn-sm'><span class='glyphicon glyphicon-remove'></span> Remover</button><button name='mover2' class='btn btn-primary btn-sm'><span class='glyphicon glyphicon-move'></span> Mover</button></td></tr>");
-$("#Texto2").val("");}        
+$("#Texto2").val("");}      
     });
 
     $(document).on("click", "button[name='remover']" , function() {

@@ -1,3 +1,12 @@
 #alinhar-a-esquerda{
 margin-left:15px;
 }
+
+#alinhar-no-centro{
+width: 400px; 
+height: 150px; 
+left: 50%; 
+margin: 0 0 0 -210px; 
+padding:10px;
+position: absolute;
+}
